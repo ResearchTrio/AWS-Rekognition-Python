@@ -37,3 +37,17 @@ Create a S3 bucket and create two folders with names **“frames” & “video�
 Create a Lambda Function with all permissions IAM Role and add **“Kinesis” & “DynamoDB”** as Triggers.
 Paste the [lamda_function.py](https://github.com/ResearchTrio/AWS-Rekognition-Python/blob/main/lambda_function.py) code in your lambda function
 
+***
+
+# Edge Implementation
+Run [main-video-analytic-code.py](https://github.com/ResearchTrio/AWS-Rekognition-Python/blob/main/main-video-analytic-code.py) on Edge Device(Laptop, Raspberry PI)
+
+***
+
+# Output 
+**Edge Output**
+![edge-output](https://github.com/ResearchTrio/AWS-Rekognition-Python/blob/main/edge_output.png)
+
+**DynamoDB Output**
+![dynamodb-output](https://github.com/ResearchTrio/AWS-Rekognition-Python/blob/main/dynamodb_output.jpg)
+
