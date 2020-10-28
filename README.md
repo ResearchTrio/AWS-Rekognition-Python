@@ -8,3 +8,28 @@ It is an attempt to mimic the scenario described in the paper
 * Animal Detection like Dog, Cat, Kangaroo etc.
 * Unsafe Content Detection like Knife, Guns, Weapons.
 * NoteWorthy Vehicle Detections like Ambulance, Fire Truck, Courier Vans (FedEx, DHL etc.)
+
+***
+# AWS Services Used
+* AWS Kinesis - For uploading video analytics data of edge to AWS cloud.
+* AWS DynamoDB - For storing video analytics data in Cloud.
+* AWS S3- For storing videos and frames (images) of edge at Cloud.
+* AWS Lambda - For handling all events of Cloud.
+
+***
+# Configuration of AWS Services
+**1. AWS Kinesis :**
+Create a data stream to get data from edge.
+**2. AWS DynamoDb :**
+Create a Table in DynamoDB with partion key as **"frame_id"**.
+Create Table with following cloumns :
+
+
+**3. AWS S3 :**
+Create a S3 bucket and create two folders with names **“frames” & “video”** in it.
+
+
+**4. AWS Lambda :**
+Create a Lambda Function with all permissions IAM Role and add **“Kinesis” & “DynamoDB”** as Triggers.
+Paste the ![lamda_function.py](https://github.com/ResearchTrio/AWS-Rekognition-Python/blob/main/lambda_function.py) code in your lambda function
+
