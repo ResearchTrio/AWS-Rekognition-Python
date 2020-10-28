@@ -13,7 +13,7 @@ import time
 import ast
 
 s3_client = boto3.client('s3')
-s3_bucket = "Enter Your Bucket Name"
+s3_bucket = "Enter Your Buckets Name"
 rekog_client = boto3.client('rekognition')
 dynamodb = boto3.resource('dynamodb')
 
