@@ -12,6 +12,7 @@ For more detailed explantation of paper watch this video [A Cloud-based Smart Do
 
 ***
 # AWS Services Used
+* AWS Rekognition - For advance scence detection in a video
 * AWS Kinesis - For uploading video analytics data of edge to AWS cloud.
 * AWS DynamoDB - For storing video analytics data in Cloud.
 * AWS S3- For storing videos and frames (images) of edge at Cloud.
