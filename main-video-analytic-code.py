@@ -70,6 +70,13 @@ frame_package ={
                 'external_image_id' : name
                 }
 
+#Create Directory for local storage
+cwd = os.getcwd()
+if os.path.isdir(cwd + '/output') == False :
+	os.mkdir(cwd + '/output')
+	os.mkdir(cwd + '/output/images')
+	os.mkdir(cwd + '/output/videos')
+
 
 def capture_frames():
     """
