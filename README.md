@@ -25,12 +25,12 @@ Create a data stream to get data from edge.
 **2. AWS DynamoDb :**
 Create a Table in DynamoDB with partion key as **"frame_id"**.
 Create Table with following cloumns :
-[!Table-Columns-Name](https://github.com/ResearchTrio/AWS-Rekognition-Python/blob/main/Column_Name.jpg)
+![Table-Columns-Name](https://github.com/ResearchTrio/AWS-Rekognition-Python/blob/main/Column_Name.jpg)
 
 
 **3. AWS S3 :**
 Create a S3 bucket and create two folders with names **“frames” & “video”** in it.
-[!S3-Directory](https://github.com/ResearchTrio/AWS-Rekognition-Python/blob/main/S3_Directory.jpg)
+![S3-Directory](https://github.com/ResearchTrio/AWS-Rekognition-Python/blob/main/S3_Directory.jpg)
 
 
 **4. AWS Lambda :**
