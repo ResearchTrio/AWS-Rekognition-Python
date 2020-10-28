@@ -1,1 +1,1 @@
-# AWS-Rekognition-Python
+# AWS-Rekognition for Object Detection Using Python
