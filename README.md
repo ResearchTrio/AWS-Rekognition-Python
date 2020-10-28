@@ -31,5 +31,5 @@ Create a S3 bucket and create two folders with names **“frames” & “video�
 
 **4. AWS Lambda :**
 Create a Lambda Function with all permissions IAM Role and add **“Kinesis” & “DynamoDB”** as Triggers.
-Paste the ![lamda_function.py](https://github.com/ResearchTrio/AWS-Rekognition-Python/blob/main/lambda_function.py) code in your lambda function
+Paste the [lamda_function.py](https://github.com/ResearchTrio/AWS-Rekognition-Python/blob/main/lambda_function.py) code in your lambda function
 
