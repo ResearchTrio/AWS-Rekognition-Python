@@ -45,9 +45,12 @@ Run [main-video-analytic-code.py](https://github.com/ResearchTrio/AWS-Rekognitio
 ***
 
 # Output 
-**Edge Output**
+
+* **Edge Output**
+
 ![edge-output](https://github.com/ResearchTrio/AWS-Rekognition-Python/blob/main/edge_output.png)
 
-**DynamoDB Output**
+* **DynamoDB Output**
+
 ![dynamodb-output](https://github.com/ResearchTrio/AWS-Rekognition-Python/blob/main/dynamodb_output.jpg)
 
